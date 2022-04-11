@@ -1,0 +1,20 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "Backend for TestBot",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "author": "Apoorva Shukla",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/dialogflow": "^4.7.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "uuid": "^8.3.2"
+    }
+}
