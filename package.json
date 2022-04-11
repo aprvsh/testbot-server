@@ -4,6 +4,7 @@
     "description": "Backend for TestBot",
     "main": "server.js",
     "scripts": {
+        "preinstall": "node gcp.js",
         "start": "node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
